@@ -13,7 +13,7 @@ const RevenueSummary = () => {
   ];
 
   return (
-    <>
+    <div className="max-w-full overflow-x-hidden"> 
       <h2 className="mb-4 text-[28px] font-bold font-sans text-left">
         Revenue Summary
       </h2>
@@ -31,7 +31,7 @@ const RevenueSummary = () => {
           </div>
         ))}
       </div>
-    </>
+   </div>
   );
 };
 
