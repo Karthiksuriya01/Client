@@ -71,7 +71,7 @@ export default function UserManagementComponent() {
   return (
     <div className="p-6">
       <div className="mb-6 flex items-center justify-between flex-wrap gap-4">
-        <h1 className="text-2xl md:text-3xl font-semibold text-neutral-900">
+        <h1 className="text-2xl md:text-3xl font-semibold">
           User Management
         </h1>
         <Button
