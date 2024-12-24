@@ -21,7 +21,7 @@ const RevenueSummary = () => {
         {cards.map((card) => (
           <div
             key={card.title}
-            className={`p-4 rounded-lg ${card.color} shadow-md flex items-center text-black font-bold`}
+            className={`p-4 rounded-lg ${card.color} shadow-md flex items-center text-black`}
           >
             <div className="text-2xl mr-4">{card.icon}</div>
             <div>
