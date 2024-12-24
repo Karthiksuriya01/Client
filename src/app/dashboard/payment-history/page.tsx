@@ -42,7 +42,7 @@ const PaymentHistory = () => {
         <div className="overflow-x-auto">
           <table className="w-full border-collapse border text-left text-sm">
             <thead>
-              <tr className="bg-green-50">
+              <tr>
                 <th className="p-2 border border-gray-200">Transaction Date</th>
                 <th className="p-2 border border-gray-200">Fees Type</th>
                 <th className="p-2 border border-gray-200">Receipt No</th>
