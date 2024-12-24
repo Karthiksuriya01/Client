@@ -9,7 +9,7 @@ const RevenueSummary = () => {
     { title: "College Fees", amount: "₹ 1,38,000", icon: "🏫", color: "bg-red-100" },
     { title: "Bus Fees", amount: "₹ 68,000", icon: "🚌", color: "bg-orange-100" },
     { title: "Hostel Fees", amount: "₹ 93,970", icon: "🏢", color: "bg-indigo-100" },
-    { title: "TNP Fees", amount: "₹ 40,000", icon: "📘", color: "bg-red-100" },
+    { title: "TNP Fees", amount: "₹ 40", icon: "📘", color: "bg-red-100" },
   ];
 
   return (
