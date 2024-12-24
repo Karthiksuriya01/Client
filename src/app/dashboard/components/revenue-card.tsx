@@ -14,7 +14,7 @@ const RevenueSummary = () => {
 
   return (
     <>
-      <h2 className="mb-4 text-[28px] text-[#656565] font-bold font-sans text-left">
+      <h2 className="mb-4 text-[28px] font-bold font-sans text-left">
         Revenue Summary
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-6">
