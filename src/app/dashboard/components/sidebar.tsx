@@ -73,7 +73,7 @@ export function Sidebar() {
   });
 
   return (
-    <ScrollArea className="h-screen overflow-x-hidden">
+    <ScrollArea className="h-screen">
       <div className="space-y-4 py-8">
         <div className="px-3 py-2">
           <div className="space-y-1">
