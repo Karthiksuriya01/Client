@@ -86,7 +86,7 @@ export default function UserManagementComponent() {
       <div className="rounded-md border overflow-x-auto">
         <Table className="min-w-full">
           <TableHeader>
-            <TableRow className="bg-[#EBF3FA]">
+            <TableRow >
               <TableHead className="w-[100px] border-x border-b text-sm sm:text-base">
                 S.No
               </TableHead>
