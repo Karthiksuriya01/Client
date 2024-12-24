@@ -26,7 +26,7 @@ const PaymentHistory = () => {
     <div className="flex flex-col items-center min-h-screen p-6">
       <div className="w-full max-w-5xl shadow-md rounded-lg p-4">
         {/* Header */}
-        <h1 className="text-lg font-bold text-gray-700 mb-4">Payment History</h1>
+        <h1 className="text-lg font-bold mb-4">Payment History</h1>
         
         {/* Filter Buttons */}
         <div className="flex justify-end gap-4 mb-4">
@@ -40,9 +40,9 @@ const PaymentHistory = () => {
         
         {/* Table */}
         <div className="overflow-x-auto">
-          <table className="w-full border-collapse border border-gray-200 text-left text-sm">
+          <table className="w-full border-collapse border text-left text-sm">
             <thead>
-              <tr className="bg-green-50 text-gray-600">
+              <tr className="bg-green-50">
                 <th className="p-2 border border-gray-200">Transaction Date</th>
                 <th className="p-2 border border-gray-200">Fees Type</th>
                 <th className="p-2 border border-gray-200">Receipt No</th>
