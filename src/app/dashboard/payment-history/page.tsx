@@ -55,8 +55,7 @@ const PaymentHistory = () => {
             <tbody>
               {data.map((row, index) => (
                 <tr
-                  key={index}
-                >
+                  key={index}>
                   <td className="p-2 border border-gray-200">{row.transactionDate}</td>
                   <td className="p-2 border border-gray-200">{row.feesType}</td>
                   <td className="p-2 border border-gray-200">{row.receiptNo}</td>
