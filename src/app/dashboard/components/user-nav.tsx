@@ -163,7 +163,7 @@ export function Navbar() {
   return (
     <>
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center mx-auto relative">
+        <div className="container max-w-screen-2xl mx-auto flex h-16 items-center relative">
           <Button
             variant="ghost"
             size="icon"
@@ -282,11 +282,11 @@ export function Navbar() {
       <NavigationMenu.Root className="lg:hidden">
         <NavigationMenu.List
           className={`
-            fixed w-full bg-background border-b z-40 shadow-lg transition-transform duration-300 ease-in-out
+            fixed w-full bg-background border-b z-40 shadow-lg transition-transform duration-300 ease-in-out overflow-x-hidden
             ${isOpen ? "translate-y-0" : "-translate-y-full"}
           `}
         >
-          <nav className="flex flex-col p-4">
+          <nav className="container max-w-screen-2xl mx-auto flex flex-col p-4">
             {filteredNavItems.map((item) => (
               <Button
                 key={item.href}
