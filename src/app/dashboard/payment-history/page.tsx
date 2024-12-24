@@ -23,17 +23,17 @@ const PaymentHistory = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center bg-gray-50 min-h-screen p-6">
-      <div className="w-full max-w-5xl bg-white shadow-md rounded-lg p-4">
+    <div className="flex flex-col items-center min-h-screen p-6">
+      <div className="w-full max-w-5xl shadow-md rounded-lg p-4">
         {/* Header */}
         <h1 className="text-lg font-bold text-gray-700 mb-4">Payment History</h1>
         
         {/* Filter Buttons */}
         <div className="flex justify-end gap-4 mb-4">
-          <button className="px-4 py-2 text-sm text-white bg-green-500 rounded hover:bg-green-600 focus:ring focus:ring-green-300">
+          <button className="px-4 py-2 text-sm bg-green-500 rounded hover:bg-green-600 focus:ring focus:ring-green-300">
             Fee Type
           </button>
-          <button className="px-4 py-2 text-sm text-white bg-blue-500 rounded hover:bg-blue-600 focus:ring focus:ring-blue-300">
+          <button className="px-4 py-2 text-sm bg-blue-500 rounded hover:bg-blue-600 focus:ring focus:ring-blue-300">
             Year IV
           </button>
         </div>
@@ -73,7 +73,7 @@ const PaymentHistory = () => {
         
         {/* Print Button */}
         <div className="flex justify-center mt-4">
-          <button className="px-6 py-2 text-white bg-blue-500 rounded hover:bg-blue-600 focus:ring focus:ring-blue-300">
+          <button className="px-6 py-2 bg-blue-500 rounded hover:bg-blue-600 focus:ring focus:ring-blue-300">
             Print
           </button>
         </div>
