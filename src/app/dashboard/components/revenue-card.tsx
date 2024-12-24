@@ -14,7 +14,7 @@ const RevenueSummary = () => {
 
   return (
     <>
-      <h2 className="mb-4 text-[28px] font-bold font-sans text-left">
+      <h2 className="mb-4 text-2xl md:text-3xl font-bold font-sans text-left">
         Revenue Summary
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-6">
@@ -26,7 +26,7 @@ const RevenueSummary = () => {
             <div className="text-2xl mr-4">{card.icon}</div>
             <div>
               <h3 className="text-sm font-medium">{card.title}</h3>
-              <p className="text-lg ">{card.amount}</p>
+              <p className="text-lg">{card.amount}</p>
             </div>
           </div>
         ))}
