@@ -32,7 +32,7 @@ const BillingTable = () => {
       <h2 className="text-[28px] font-[800px] font-[sans serif] mb-4">Recent Billing</h2>
       <Table className="w-full border-collapse border text-left text-sm">
         <TableHeader>
-          <TableRow >
+          <TableRow className="font-bold">
             <TableHead className="border border-gray-300 p-2">S.No</TableHead>
             <TableHead className="border border-gray-300 p-2">Register Number</TableHead>
             <TableHead className="border border-gray-300 p-2">Student Name</TableHead>
