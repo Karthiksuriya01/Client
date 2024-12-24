@@ -17,7 +17,7 @@ const RevenueSummary = () => {
       <h2 className="mb-4 text-[28px] font-bold font-sans text-left">
         Revenue Summary
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-6">
+      <div className="flex flex-row gap-4 flex-wrap mb-6">
         {cards.map((card) => (
           <div
             key={card.title}
