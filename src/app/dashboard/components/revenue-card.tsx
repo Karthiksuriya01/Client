@@ -21,12 +21,12 @@ const RevenueSummary = () => {
         {cards.map((card) => (
           <div
             key={card.title}
-            className={`p-4 rounded-lg ${card.color} shadow-md flex items-center`}
+            className={`p-4 rounded-lg ${card.color} shadow-md flex items-center text-black font-bold`}
           >
             <div className="text-2xl mr-4">{card.icon}</div>
             <div>
               <h3 className="text-sm font-medium">{card.title}</h3>
-              <p className="text-lg font-bold">{card.amount}</p>
+              <p className="text-lg ">{card.amount}</p>
             </div>
           </div>
         ))}
