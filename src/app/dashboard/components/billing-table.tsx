@@ -30,7 +30,7 @@ const BillingTable = () => {
   return (
     <div>
       <h2 className="text-[28px] font-[800px] font-[sans serif] mb-4">Recent Billing</h2>
-      <div className="w-full overflow-x-auto">
+      <div className="w-full overflow-scroll">
         <Table className="w-full min-w-[800px] border-collapse border text-left text-sm">
           <TableHeader>
             <TableRow className="font-bold">
