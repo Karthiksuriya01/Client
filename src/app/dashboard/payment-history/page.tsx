@@ -56,7 +56,6 @@ const PaymentHistory = () => {
               {data.map((row, index) => (
                 <tr
                   key={index}
-                  className={`${index % 2 === 0 ? "bg-white" : "bg-gray-50"}`}
                 >
                   <td className="p-2 border border-gray-200">{row.transactionDate}</td>
                   <td className="p-2 border border-gray-200">{row.feesType}</td>
